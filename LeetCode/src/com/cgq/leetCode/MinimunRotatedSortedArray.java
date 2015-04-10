@@ -11,7 +11,7 @@ You may assume no duplicate exists in the array.
  * @author cgqfzy
  *
  */
-public class Problems_153 {
+public class MinimunRotatedSortedArray {
 
 	public int findMin(int[] num) {
         if (num.length == 1){
