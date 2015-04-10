@@ -6,7 +6,7 @@ package com.cgq.leetCode;
  * @author cgqfzy
  *
  */
-public class Problems_29 {
+public class DivideTwoIntegers {
 
 	/**
 	 * 不使用移位的实现

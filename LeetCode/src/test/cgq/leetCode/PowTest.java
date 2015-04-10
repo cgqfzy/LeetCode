@@ -1,17 +1,15 @@
 package test.cgq.leetCode;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.cgq.leetCode.Problems_34;
+import com.cgq.leetCode.Pow;
 import com.cgq.utils.MyPrint;
 
-public class Problems_34Test {
+public class PowTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -31,10 +29,11 @@ public class Problems_34Test {
 
 	@Test
 	public void test() {
-		Problems_34 p34 = new Problems_34();
-		int[] input = new int[]{2,2};
-		int target = 2;
-		MyPrint.print(p34.findMinIndex(input, 0, input.length, target));
+		Pow p50 = new Pow();
+//		MyPrint.print(p50.powShift(2, 7));
+		MyPrint.print(p50.int2bit(46));
+		int n = -2147483648;
+		System.out.println(-n);
 	}
 
 }

@@ -8,10 +8,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.cgq.leetCode.Problems_69;
+import com.cgq.leetCode.SearchForRange;
 import com.cgq.utils.MyPrint;
 
-public class Problems_69Test {
+public class SerachForRangeTest {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -31,9 +31,10 @@ public class Problems_69Test {
 
 	@Test
 	public void test() {
-		int input = 2;
-		MyPrint.print(new Problems_69().mySqrt(input));
-		
+		SearchForRange p34 = new SearchForRange();
+		int[] input = new int[]{2,2};
+		int target = 2;
+		MyPrint.print(p34.findMinIndex(input, 0, input.length, target));
 	}
 
 }

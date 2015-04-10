@@ -5,7 +5,7 @@ package com.cgq.leetCode;
  * @author cgqfzy
  *
  */
-public class Problems_50 {
+public class Pow {
 
 	/**
 	 * 使用移位实现

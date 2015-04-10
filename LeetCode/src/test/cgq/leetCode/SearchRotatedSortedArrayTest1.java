@@ -6,10 +6,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.cgq.leetCode.Problems_50;
+import com.cgq.leetCode.SearchRotatedSortedArray1;
 import com.cgq.utils.MyPrint;
 
-public class Problems_50Test {
+public class SearchRotatedSortedArrayTest1 {
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -29,11 +29,10 @@ public class Problems_50Test {
 
 	@Test
 	public void test() {
-		Problems_50 p50 = new Problems_50();
-//		MyPrint.print(p50.powShift(2, 7));
-		MyPrint.print(p50.int2bit(46));
-		int n = -2147483648;
-		System.out.println(-n);
+		int[] input = new int[]{4,5,6,7,0,1,2};
+		int[] in2 = new int[]{1,2,3,4,5,6,7};
+		int target = 0;
+		MyPrint.print(new SearchRotatedSortedArray1().search(input, target));
 	}
 
 }

@@ -13,7 +13,7 @@ For example, in array [1, 2, 3, 1], 3 is a peak element and your function should
  * @author cgqfzy
  *
  */
-public class Problems_162 {
+public class FindPeakElement {
 
 	 public int findPeakElement(int[] array) {
 		 return findPeak(array, 0, array.length -1);

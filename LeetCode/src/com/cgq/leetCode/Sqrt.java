@@ -7,7 +7,7 @@ Compute and return the square root of x.
  * @author cgqfzy
  *
  */
-public class Problems_69 {
+public class Sqrt {
 
 	public int mySqrt(int x){
 		if (x ==0 || x == 1){

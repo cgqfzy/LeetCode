@@ -3,12 +3,10 @@ package com.cgq.leetCode;
 import com.cgq.utils.MyPrint;
 
 /**
- * Divide two integers without using multiplication, division and mod operator.
-	If it is overflow, return MAX_INT.
  * @author cgqfzy
  *
  */
-public class Problems_33 {
+public class SearchRotatedSortedArray1 {
 
 	/**
 	 * 先查询中间转折点

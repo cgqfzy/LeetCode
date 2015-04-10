@@ -6,7 +6,7 @@ package com.cgq.leetCode;
  * @author cgqfzy
  *
  */
-public class Problems_4 {
+public class MedianTwoSortedArray {
 
 	public double findMedianSortedArrays(int A[],int B[]){
 		int length = A.length + B.length;

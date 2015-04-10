@@ -1,6 +1,6 @@
 package com.cgq.leetCode;
 
-public class Problems_81 {
+public class SearchRotatedSortedArray2 {
 
 	public boolean search(int[] array, int target) {
 		// find the pivot

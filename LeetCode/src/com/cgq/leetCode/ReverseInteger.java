@@ -12,7 +12,7 @@ For the purpose of this problem, assume that your function returns 0 when the re
  * @author cgqfzy
  *
  */
-public class Problems_7 {
+public class ReverseInteger {
 
 	public int reverse(int x){
 		if (x == Integer.MIN_VALUE){

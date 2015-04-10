@@ -12,7 +12,7 @@ package com.cgq.leetCode;
  * @author cgqfzy
  *
  */
-public class Problems_6 {
+public class ZigZagConversion {
 
 	public String convert(String str,int nRows){
 		char[] c = str.toCharArray();

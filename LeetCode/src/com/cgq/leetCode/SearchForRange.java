@@ -12,7 +12,7 @@ import com.cgq.utils.MyPrint;
  * @author cgqfzy
  *
  */
-public class Problems_34 {
+public class SearchForRange {
 
 	public int[] searchRange(int[] array,int target){
 		if (array.length == 1){
